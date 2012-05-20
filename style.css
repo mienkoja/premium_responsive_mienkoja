@@ -200,6 +200,9 @@ em {
   font-style: italic;
 }
 
+ul, ol {
+  padding-left:20px;
+}
 
 .clearfix:after {
   content: ".";
@@ -449,7 +452,7 @@ ul.social li {
   font-family: Bitter, Helvetica, Arial, sans-serif;
   font-weight: 700;
   color: #000;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .node h2.title a{
@@ -552,9 +555,6 @@ ul.social li {
   color: #100101;
 }
 
-.content ul, .content ol {
-  padding-left:20px;
-}
 
 /*-------------------------------------------*
 /* Fix CKEditor style

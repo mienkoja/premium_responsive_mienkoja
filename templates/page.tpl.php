@@ -211,6 +211,6 @@
 <?php endif; ?>
   
 <div id="copyright" class="container">
- <div class="credit"><?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <?php print $site_name; ?> <br/> <?php print t('Thanks to'); ?> <a href="http://www.sidepon.com" target="_blank">Sidepon.com</a> | <?php print t('Developed by'); ?> <a href="http://www.devsaran.com" target="_blank">Devsaran</a>.</div>
+ <div class="credit"><?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <?php print $site_name; ?> <br/> <?php print t('Developed by'); ?> <a href="http://www.devsaran.com" target="_blank">Devsaran</a>.</div>
   <div class="clear"></div>
 </div>

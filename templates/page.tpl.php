@@ -78,10 +78,10 @@
     <div class="eleven columns omega" id="headright">
       <?php if (theme_get_setting('socialicon_display', 'responsive')): ?>
       <?php 
-      $twitter_url = theme_get_setting('twitter_url', 'responsive'); 
-      $facebook_url = theme_get_setting('facebook_url', 'responsive'); 
-      $googleplus_url = theme_get_setting('googleplus_url', 'responsive'); 
-      $linkedin_url = theme_get_setting('linkedin_url', 'responsive'); 
+      $twitter_url = check_plain(theme_get_setting('twitter_url', 'responsive')); 
+      $facebook_url = check_plain(theme_get_setting('facebook_url', 'responsive')); 
+      $googleplus_url = check_plain(theme_get_setting('googleplus_url', 'responsive')); 
+      $linkedin_url = check_plain(theme_get_setting('linkedin_url', 'responsive')); 
       $theme_path_social = base_path() . drupal_get_path('theme', 'responsive');
       ?>
       <div id="socialbar">
@@ -118,9 +118,9 @@
     <?php if (theme_get_setting('slideshow_display', 'responsive')): ?>
       <!-- Slides -->
       <?php 
-      $url1 = theme_get_setting('slide1_url','responsive'); $cap1 = theme_get_setting('slide1_desc','responsive');
-      $url2 = theme_get_setting('slide2_url','responsive'); $cap2 = theme_get_setting('slide2_desc','responsive');
-      $url3 = theme_get_setting('slide3_url','responsive'); $cap3 = theme_get_setting('slide3_desc','responsive');
+      $url1 = check_plain(theme_get_setting('slide1_url','responsive')); $cap1 = check_markup(theme_get_setting('slide1_desc','responsive'));
+      $url2 = check_plain(theme_get_setting('slide2_url','responsive')); $cap2 = check_markup(theme_get_setting('slide2_desc','responsive'));
+      $url3 = check_plain(theme_get_setting('slide3_url','responsive')); $cap3 = check_markup(theme_get_setting('slide3_desc','responsive'));
       ?>
      <div class="flexslider">
       <ul class="slides">

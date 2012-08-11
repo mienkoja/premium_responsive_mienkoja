@@ -47,6 +47,7 @@ html[xmlns] .slides {display: block;}
 .flex-caption {background:url(images/trans.png);}
 .flex-caption {width: 96%; padding: 2% 2%; margin: 0; position: absolute; left: 0; bottom: 0; background: rgba(f,f,f,.3); color: #fff;  font-size: 14px; line-height: 22px;}
 .flex-caption h3{  font-weight:400; color:#fff; margin-bottom:5px;}
+.flex-caption p{margin: 0;}
 /* Direction Nav */
 .flex-direction-nav { height: 0; }
 .flex-direction-nav li a {width: 32px; height: 32px; margin: -16px 0 0; display: block; background: url(images/directionbg.png) no-repeat; position: absolute; bottom: 20px; cursor: pointer; text-indent: -999em;}

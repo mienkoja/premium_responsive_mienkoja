@@ -123,4 +123,10 @@ function responsive_form_system_theme_settings_alter(&$form, &$form_state) {
     '#default_value' => theme_get_setting('linkedin_url', 'responsive'),
 	  '#description'   => t("Enter your LinkedIn Profile URL. Leave blank to hide."),
   );
+  $form['resp_settings']['socialicon']['github_url'] = array(
+    '#type' => 'textfield',
+    '#title' => t('GitHub Profile URL'),
+    '#default_value' => theme_get_setting('github_url', 'responsive'),
+	  '#description'   => t("Enter your GitHub Profile URL. Leave blank to hide."),
+  );  
 }

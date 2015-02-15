@@ -90,6 +90,7 @@
       <?php if ($facebook_url): ?><li> <a href="<?php print $facebook_url; ?>" target="_blank"> <img src="<?php print $theme_path_social; ?>/images/facebook.png"> </a> </li> <?php endif; ?>
       <?php if ($googleplus_url): ?><li> <a href="<?php print $googleplus_url; ?>" target="_blank"> <img src="<?php print $theme_path_social; ?>/images/gplus.png"> </a> </li> <?php endif; ?>
       <?php if ($linkedin_url): ?><li> <a href="<?php print $linkedin_url; ?>" target="_blank"> <img src="<?php print $theme_path_social; ?>/images/in.png"> </a> </li> <?php endif; ?>
+      <?php if ($github_url): ?><li> <a href="<?php print $github_url; ?>" target="_blank"> <img src="<?php print $theme_path_social; ?>/images/github.png"> </a> </li> <?php endif; ?>      
       <li> <a href="<?php print $front_page; ?>rss.xml"> <img src="<?php print $theme_path_social; ?>/images/rss.png"> </a> </li>
         </ul>
       </div>

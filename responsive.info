@@ -1,5 +1,5 @@
-name = Premium Responsive
-description = Premium Responsive is a responsive Drupal 7 theme. Developed by <a href="http://www.devsaran.com" target="_blank">Devsaran.com</a>.
+name = Premium Responsive mienkoja
+description = A hack of Premium Responsive to add more social media icons to the header. Premium Responsive is a responsive Drupal 7 theme. Developed by <a href="http://www.devsaran.com" target="_blank">Devsaran.com</a>.
 core = 7.x
 engine = phptemplate
 stylesheets[all][] = css/responsive-style.css

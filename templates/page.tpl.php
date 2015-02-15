@@ -81,7 +81,8 @@
       $twitter_url = check_plain(theme_get_setting('twitter_url', 'responsive')); 
       $facebook_url = check_plain(theme_get_setting('facebook_url', 'responsive')); 
       $googleplus_url = check_plain(theme_get_setting('googleplus_url', 'responsive')); 
-      $linkedin_url = check_plain(theme_get_setting('linkedin_url', 'responsive')); 
+      $linkedin_url = check_plain(theme_get_setting('linkedin_url', 'responsive'));
+      $github_url = check_plain(theme_get_setting('github_url', 'responsive')); 
       $theme_path_social = base_path() . drupal_get_path('theme', 'responsive');
       ?>
       <div id="socialbar">
